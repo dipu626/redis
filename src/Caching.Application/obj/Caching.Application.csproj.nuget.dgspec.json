@@ -135,6 +135,10 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.6.122, )"

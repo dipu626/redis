@@ -1,7 +1,7 @@
-using Caching.Domain.Repositories;
 using Caching.Infrastructure.Persistence;
 using Caching.Infrastructure.Providers;
 using Microsoft.EntityFrameworkCore;
+using Scrutor;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,8 +18,14 @@ builder.Services.AddDbContext<CacheDbContext>(options =>
     options.UseSqlServer(connectionString: builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(configuration: builder.Configuration.GetValue<string>("RedisUrl")));
-builder.Services.AddScoped<ICacheRepository, CacheRepository>();
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
+//builder.Services.AddScoped<ICacheRepository, CacheRepository>();
+//builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.Scan(service => service.FromAssemblies(typeof(CacheRepository).Assembly)
+                                        .AddClasses()
+                                        .UsingRegistrationStrategy(RegistrationStrategy.Skip)
+                                        .AsMatchingInterface()
+                                        .WithScopedLifetime());
 
 var app = builder.Build();
 

@@ -92,5 +92,5 @@ D:\Projects\PetProjects\redis\src\WebService\obj\Debug\net8.0\WebService.genrunt
 D:\Projects\PetProjects\redis\src\WebService\obj\Debug\net8.0\ref\WebService.dll
 D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\EF.Core.Repository.dll
-D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
 D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\Scrutor.dll
