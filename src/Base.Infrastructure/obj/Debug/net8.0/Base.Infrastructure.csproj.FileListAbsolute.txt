@@ -1,0 +1,12 @@
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\bin\Debug\net8.0\Base.Infrastructure.deps.json
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\bin\Debug\net8.0\Base.Infrastructure.dll
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\bin\Debug\net8.0\Base.Infrastructure.pdb
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infrastructure.AssemblyInfo.cs
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infrastructure.sourcelink.json
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infrastructure.dll
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\refint\Base.Infrastructure.dll
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infrastructure.pdb
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\ref\Base.Infrastructure.dll

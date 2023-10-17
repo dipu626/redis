@@ -11,4 +11,11 @@
     <ProjectReference Include="..\Caching.Domain\Caching.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Features\Commands\" />
+    <Folder Include="Features\Queries\Handlers\" />
+    <Folder Include="Features\Queries\Validators\" />
+  </ItemGroup>
+
 </Project>

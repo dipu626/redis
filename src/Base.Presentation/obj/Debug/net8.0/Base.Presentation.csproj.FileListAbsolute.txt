@@ -1,0 +1,12 @@
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Presentation.deps.json
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Presentation.dll
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Presentation.pdb
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presentation.AssemblyInfoInputs.cache
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presentation.AssemblyInfo.cs
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presentation.csproj.CoreCompileInputs.cache
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presentation.sourcelink.json
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presentation.dll
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\refint\Base.Presentation.dll
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presentation.pdb
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\ref\Base.Presentation.dll
