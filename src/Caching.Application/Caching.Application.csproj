@@ -12,9 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\" />
     <Folder Include="Features\Commands\" />
-    <Folder Include="Features\Queries\Validators\" />
   </ItemGroup>
 
 </Project>

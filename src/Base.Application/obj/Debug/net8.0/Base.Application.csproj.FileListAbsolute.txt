@@ -10,3 +10,9 @@ D:\Projects\PetProjects\redis\src\Base.Application\obj\Debug\net8.0\Base.Applica
 D:\Projects\PetProjects\redis\src\Base.Application\obj\Debug\net8.0\refint\Base.Application.dll
 D:\Projects\PetProjects\redis\src\Base.Application\obj\Debug\net8.0\Base.Application.pdb
 D:\Projects\PetProjects\redis\src\Base.Application\obj\Debug\net8.0\ref\Base.Application.dll
+D:\Projects\PetProjects\redis\src\Base.Application\bin\Debug\net8.0\Base.Domain.dll
+D:\Projects\PetProjects\redis\src\Base.Application\bin\Debug\net8.0\Base.Shared.dll
+D:\Projects\PetProjects\redis\src\Base.Application\bin\Debug\net8.0\Base.Domain.pdb
+D:\Projects\PetProjects\redis\src\Base.Application\bin\Debug\net8.0\Base.Shared.pdb
+D:\Projects\PetProjects\redis\src\Base.Application\obj\Debug\net8.0\Base.Application.csproj.AssemblyReference.cache
+D:\Projects\PetProjects\redis\src\Base.Application\obj\Debug\net8.0\Base.Application.csproj.CopyComplete

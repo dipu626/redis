@@ -10,3 +10,13 @@ D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presen
 D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\refint\Base.Presentation.dll
 D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presentation.pdb
 D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\ref\Base.Presentation.dll
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Application.dll
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Domain.dll
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Infrastructure.dll
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Shared.dll
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Infrastructure.pdb
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Application.pdb
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Domain.pdb
+D:\Projects\PetProjects\redis\src\Base.Presentation\bin\Debug\net8.0\Base.Shared.pdb
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presentation.csproj.AssemblyReference.cache
+D:\Projects\PetProjects\redis\src\Base.Presentation\obj\Debug\net8.0\Base.Presentation.csproj.CopyComplete

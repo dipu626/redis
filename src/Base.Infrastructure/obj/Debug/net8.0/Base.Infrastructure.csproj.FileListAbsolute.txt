@@ -10,3 +10,11 @@ D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infr
 D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\refint\Base.Infrastructure.dll
 D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infrastructure.pdb
 D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\ref\Base.Infrastructure.dll
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\bin\Debug\net8.0\Base.Application.dll
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\bin\Debug\net8.0\Base.Domain.dll
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\bin\Debug\net8.0\Base.Shared.dll
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\bin\Debug\net8.0\Base.Application.pdb
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\bin\Debug\net8.0\Base.Domain.pdb
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\bin\Debug\net8.0\Base.Shared.pdb
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\PetProjects\redis\src\Base.Infrastructure\obj\Debug\net8.0\Base.Infrastructure.csproj.CopyComplete

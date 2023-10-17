@@ -1,10 +1,10 @@
 ﻿using Base.Application.Dtos.Responses;
-using Caching.Domain.Entities;
+using Caching.Application.Dtos;
 using MediatR;
 
 namespace Caching.Application.Features.Queries
 {
-    public class GetProductsQuery : IRequest<CommonResponse<Product>>
+    public class GetProductsQuery : IRequest<CommonResponse<ProductResponse>>
     {
     }
 }

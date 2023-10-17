@@ -1,6 +1,9 @@
 using Caching.Application.Features.Queries;
+using Caching.Application.Features.Queries.Validators;
+using Caching.Application.Mapping;
 using Caching.Infrastructure.Persistence;
 using Caching.Infrastructure.Providers;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Scrutor;
 using StackExchange.Redis;
@@ -41,7 +44,12 @@ builder.Services.AddSwaggerGen();
 
 // Add Validators
 {
+    builder.Services.AddValidatorsFromAssembly(typeof(GetProductQueryValidator).Assembly);
+}
 
+// Add Automapper
+{
+    builder.Services.AddAutoMapper(typeof(CachingProfile).Assembly);
 }
 
 var app = builder.Build();
