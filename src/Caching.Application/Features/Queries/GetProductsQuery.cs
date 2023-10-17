@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Base.Application.Dtos.Responses;
+using Caching.Domain.Entities;
+using MediatR;
 
 namespace Caching.Application.Features.Queries
 {
-    internal class GetProductsQuery
+    public class GetProductsQuery : IRequest<CommonResponse<Product>>
     {
     }
 }

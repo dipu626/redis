@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "DjJ5GPXPROpqaPeJ8iNtS5yAx8A/oyXHf1VnHmrYKPxqWM7drct5KVyu2E86jBijIPAMBrWacgcyk5CGsnC87Q==",
+  "dgSpecHash": "nzIV14csBV59fJHDLkv1M9EMLiYzFtBy4YGDWxG89RMIc7KVvCWZlX1iUUccJdavxJ3WwBGgkE4OxiBx0XvAbw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\PetProjects\\redis\\src\\Base.Shared\\Base.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dipuk\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\ef.core.repository\\1.0.0.2\\ef.core.repository.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\dipuk\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\dipuk\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\dipuk\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

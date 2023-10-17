@@ -94,3 +94,6 @@ D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\Microsoft.Extensio
 D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\EF.Core.Repository.dll
 D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\Scrutor.dll
+D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\FluentValidation.dll
+D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\MediatR.dll
+D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\MediatR.Contracts.dll

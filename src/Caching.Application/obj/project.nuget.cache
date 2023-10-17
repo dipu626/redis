@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "w2zHkr+l5M2A0QL7xJACy8lSP1L0/ZZLT/RQ3apKu65+iVhYdXTp9NTjr2FrdW04SgzBwSmdxqPbN9L+25TK/Q==",
+  "dgSpecHash": "czrFBkh8Ers1vW9IqlQDI6TkRZopxxcFugmf8dtZKBFH22pAOaTSBKaGak44ar1CLbkHzUtUhFDV5JbztLi0/w==",
   "success": true,
   "projectFilePath": "D:\\Projects\\PetProjects\\redis\\src\\Caching.Application\\Caching.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dipuk\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\ef.core.repository\\1.0.0.2\\ef.core.repository.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\dipuk\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\dipuk\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\dipuk\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\dipuk\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

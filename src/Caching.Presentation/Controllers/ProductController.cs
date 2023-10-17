@@ -1,5 +1,7 @@
-﻿using Caching.Domain.Entities;
-using Caching.Domain.Repositories;
+﻿using Base.Application.Dtos.Responses;
+using Caching.Application.Features.Queries;
+using Caching.Domain.Entities;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Caching.Presentation.Controllers
@@ -8,31 +10,17 @@ namespace Caching.Presentation.Controllers
     [Route("api/[controller]")]
     public class ProductController
     {
-        private readonly IProductRepository _productRepository;
-        private readonly ICacheRepository _cacheRepository;
+        private readonly IMediator _mediator;
 
-        public ProductController(IProductRepository productRepository,
-                                 ICacheRepository cacheRepository)
+        public ProductController(IMediator mediator)
         {
-            _productRepository = productRepository;
-            _cacheRepository = cacheRepository;
+            _mediator = mediator;
         }
 
         [HttpGet("products")]
-        public async Task<IEnumerable<Product>> GetProductsAsync()
+        public async Task<CommonResponse<Product>> GetProductsAsync([FromQuery] GetProductsQuery query)
         {
-            var cacheData = await _cacheRepository.GetDataAsync<IEnumerable<Product>>("product");
-
-            if (cacheData is not null)
-            {
-                return cacheData;
-            }
-
-            var expirationTime = DateTimeOffset.Now.AddMinutes(5);
-            cacheData = await _productRepository.GetAllAsync();
-            await _cacheRepository.SetDataAsync(key: "product", value: cacheData, expirationTime: expirationTime);
-
-            return cacheData;
+            return await _mediator.Send(query);
         }
 
     }
