@@ -42,7 +42,7 @@ namespace Caching.Application.Features.Queries.Handlers
                 var validator = await _getProductQueryValidator.ValidateAsync(request);
                 validator.EnsureValidationResult();
 
-                var cachedData = await _cacheRepository.GetDataAsync<List<Product>>("product");
+                var cachedData = await _cacheRepository.GetAsync<List<Product>>("product");
                 if (cachedData is not null)
                 {
                     var filteredData = cachedData.FirstOrDefault(x => x.Id == request.Id);
@@ -51,7 +51,7 @@ namespace Caching.Application.Features.Queries.Handlers
                 }
                 var expirationTime = DateTimeOffset.Now.AddSeconds(double.Parse(_configuration["Redis:ExpirationTime"]));
                 var products = await _productRepository.GetAllAsync();
-                await _cacheRepository.SetDataAsync(key: "product", value: products, expirationTime: expirationTime);
+                await _cacheRepository.SetAsync(key: "product", value: products, expirationTime: expirationTime);
 
                 var result = products.FirstOrDefault(x => x.Id == request.Id);
 

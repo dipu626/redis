@@ -11,8 +11,4 @@
     <ProjectReference Include="..\Caching.Domain\Caching.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Commands\" />
-  </ItemGroup>
-
 </Project>

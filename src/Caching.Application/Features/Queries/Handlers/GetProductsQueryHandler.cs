@@ -34,7 +34,7 @@ namespace Caching.Application.Features.Queries.Handlers
         {
             try
             {
-                var cacheData = await _cacheRepository.GetDataAsync<List<Product>>(key: "product");
+                var cacheData = await _cacheRepository.GetAsync<List<Product>>(key: "product");
                 if (cacheData is not null)
                 {
                     return CommonResponse<ProductResponse>.BuildSuccessResponse(records: _mapper.Map<List<ProductResponse>>(cacheData));
@@ -42,7 +42,7 @@ namespace Caching.Application.Features.Queries.Handlers
 
                 var expirationTime = DateTimeOffset.Now.AddSeconds(double.Parse(_configuration["Redis:ExpirationTime"]));
                 cacheData = (List<Product>?)await _productRepository.GetAllAsync();
-                await _cacheRepository.SetDataAsync(key: "product", value: cacheData, expirationTime: expirationTime);
+                await _cacheRepository.SetAsync(key: "product", value: cacheData, expirationTime: expirationTime);
 
                 return CommonResponse<ProductResponse>.BuildSuccessResponse(records: _mapper.Map<List<ProductResponse>>(cacheData));
             }

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Caching.Infrastructure.Migrations
 {
     [DbContext(typeof(CacheDbContext))]
-    [Migration("20231016125626_initialMigration")]
-    partial class initialMigration
+    [Migration("20231018062748_initial_migration")]
+    partial class initial_migration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

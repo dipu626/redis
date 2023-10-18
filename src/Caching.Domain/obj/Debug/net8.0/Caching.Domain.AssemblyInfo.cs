@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Caching.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9e1c5f965ef1b236ab08d25e1f415c83d1e6bd1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+023ee2a4d22ab0e3588ae778dc77a98049d73541")]
 [assembly: System.Reflection.AssemblyProductAttribute("Caching.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Caching.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

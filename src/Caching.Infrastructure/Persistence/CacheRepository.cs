@@ -13,7 +13,7 @@ namespace Caching.Infrastructure.Persistence
             _db = connectionMultiplexer.GetDatabase();
         }
 
-        public async Task<T> GetDataAsync<T>(string key)
+        public async Task<T> GetAsync<T>(string key)
         {
             var value = await _db.StringGetAsync(key);
             if (!string.IsNullOrEmpty(value))
@@ -23,14 +23,14 @@ namespace Caching.Infrastructure.Persistence
             return default;
         }
 
-        public async Task<bool> SetDataAsync<T>(string key, T value, DateTimeOffset expirationTime)
+        public async Task<bool> SetAsync<T>(string key, T value, DateTimeOffset expirationTime)
         {
             var expiryTime = expirationTime.DateTime.Subtract(DateTime.Now);
             var isInserted = await _db.StringSetAsync(key, JsonConvert.SerializeObject(value), expiryTime);
             return isInserted;
         }
 
-        public async Task<object> RemoveDataAsync(string key)
+        public async Task<object> DeleteAsync(string key)
         {
             bool isKeyExist = await _db.KeyExistsAsync(key);
 
@@ -42,5 +42,9 @@ namespace Caching.Infrastructure.Persistence
             return false;
         }
 
+        public async Task DeleteAllAsync()
+        {
+            await _db.ExecuteAsync("FlushDB");
+        }
     }
 }

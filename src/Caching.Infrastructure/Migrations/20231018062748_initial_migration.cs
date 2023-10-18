@@ -5,7 +5,7 @@
 namespace Caching.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class initialMigration : Migration
+    public partial class initial_migration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -1,0 +1,2 @@
+﻿build sql container:
+	docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=pa55w0rd$." -p 1433:1433 -d -v redis-app-sql-volume:/var/opt/mssql --name redis-app-sql mcr.microsoft.com/mssql/server:2019-latest

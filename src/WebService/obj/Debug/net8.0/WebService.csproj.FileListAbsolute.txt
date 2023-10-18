@@ -101,3 +101,7 @@ D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\AutoMapper.dll
 D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\Humanizer.dll
+D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Projects\PetProjects\redis\src\WebService\bin\Debug\net8.0\System.CodeDom.dll

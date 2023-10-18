@@ -2,8 +2,9 @@
 {
     public interface ICacheRepository
     {
-        Task<T> GetDataAsync<T>(string key);
-        Task<bool> SetDataAsync<T>(string key, T value, DateTimeOffset expirationTime);
-        Task<object> RemoveDataAsync(string key);
+        Task<T> GetAsync<T>(string key);
+        Task<bool> SetAsync<T>(string key, T value, DateTimeOffset expirationTime);
+        Task<object> DeleteAsync(string key);
+        Task DeleteAllAsync();
     }
 }

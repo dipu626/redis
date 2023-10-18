@@ -22,7 +22,7 @@ namespace Caching.Application.Features.Queries.Validators
 
         private async Task<bool> BeAnExistingProductIdInCache(int productId, CancellationToken token)
         {
-            var products = await _cacheRepository.GetDataAsync<List<Product>>("product");
+            var products = await _cacheRepository.GetAsync<List<Product>>("product");
             if (products is null)
             {
                 return true;

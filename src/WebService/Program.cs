@@ -33,13 +33,11 @@ builder.Services.AddSwaggerGen();
 
 // Add Repositories & Services
 {
-    //builder.Services.AddScoped<ICacheRepository, CacheRepository>();
-    //builder.Services.AddScoped<IProductRepository, ProductRepository>();
-    builder.Services.Scan(service => service.FromAssemblies(typeof(CacheRepository).Assembly)
-                                            .AddClasses()
-                                            .UsingRegistrationStrategy(RegistrationStrategy.Skip)
-                                            .AsMatchingInterface()
-                                            .WithScopedLifetime());
+    builder.Services.Scan(srv => srv.FromAssemblies(typeof(CacheRepository).Assembly)
+                                    .AddClasses()
+                                    .UsingRegistrationStrategy(RegistrationStrategy.Skip)
+                                    .AsMatchingInterface()
+                                    .WithScopedLifetime());
 }
 
 // Add Validators

@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using System.Runtime.CompilerServices;
 
 namespace Base.Application.Dtos.Responses
 {
@@ -37,6 +38,13 @@ namespace Base.Application.Dtos.Responses
                 RequestUri = requestUri,
                 HttpStatusCode = HttpStatusCode.InternalServerError
             };
+        }
+
+        public static CommonResponse<TRecord> BuildBadRequestResponse(ErrorResponse errors, string requestUri = "")
+        {
+            var response = CommonResponse<TRecord>.BuildErrorResponse(errors, requestUri);
+            response.HttpStatusCode = HttpStatusCode.BadRequest;
+            return response;
         }
     }
 
